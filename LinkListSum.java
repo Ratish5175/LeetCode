@@ -100,40 +100,6 @@ public class LinkListSum {
 			}
     	
     	return h3;
-//    	int lOne = length(l1);
-//    	int lTwo = length(l2);
-//    	int carry =0;
-//    	if(lOne>=lTwo)
-//    	{
-//    		res = l1;
-//    		while(l2.next!=null)
-//    		{
-//    			res.val= (l1.val + l2.val)%10 + carry;
-//    			carry = (l1.val + l2.val +carry)/10;
-//    			res = res.next;
-//    			l1= l1.next;
-//    			l2= l2.next;
-//    		}
-//    		if(res!=null)
-//    		{
-//    			res.val= (l1.val + l2.val)%10 + carry;
-//    			carry = (l1.val + l2.val +carry)/10;
-//    			if(res.next!=null)
-//    			{
-//    				res = res.next;
-//    				res.val= (l1.val)%10 + carry;
-//    			}
-//    		}
-//    		
-//    		return h1;
-//    	}
-//    	else
-//    	{
-//    		res = l2;
-//    	
-//    	
-//    		return h2;
-//    	}
     }
 
 	private static int length(ListNode l1) {
